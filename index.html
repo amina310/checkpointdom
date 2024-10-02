@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1 class="h1">bienvenue dans notre boutique nous vous proposons une large choix de sacs à main pour vous mes dames ;
+    faites votre choix et laissez nous faire le reste.</h1>
+<body>
+    <div class="cart">
+        
+        <div class="item1" data-price="20">
+            <h2>sac dior</h2>
+            <button class="like-button">❤️</button>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="amount">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="remove">Remove</button>
+            <span class="price">`$20</span>
+        </div>
+        <div class="item2" data-price="30">
+            <h2>sac hermes</h2>
+            <button class="like-button">❤️</button>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="amount">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="remove">Remove</button>
+            <span class="price">`$30</span>
+        </div>
+        <h2>Total: <span id="totalPrice">`$00</span></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

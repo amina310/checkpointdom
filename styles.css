@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 2000px;
+    background-color: blueviolet;
+}
+
+.cart {
+    width: 300px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.item1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: palevioletred;
+    width: 300px;
+    height: 250px;
+}   
+.item2{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: bisque;
+    width: 300px;
+    height: 250px;
+}    
+
+
+button {
+    margin: 5px;
+}
+.liked {
+    color: red;
+}
